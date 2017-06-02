@@ -1,0 +1,140 @@
+body {
+	background-image: url("desk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+#nav {
+    list-style-type: none;
+    padding-top: 0px;
+    overflow: hidden;
+    background-color: #2f2e2e;
+	font-size: 18px;
+	font-family: Segoe UI Light;
+	border-radius: 7px;
+}
+#nav-float {
+    float: left;
+	padding-left: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: tan;
+}
+.img{
+	opacity: 0.7;
+	width: 500px;
+}
+.img2 {
+	width: 140px;
+	height: 140px;
+	background-size: cover;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	border-radius: 100%;
+}
+.container {
+	height: auto;
+	overflow: hidden;
+}
+#container {
+	position: relative;
+	width: auto;
+	height: auto;
+	top: 70px;
+	padding: 20px;
+	background-color: #0d0d0d;
+	margin-bottom: 50px;
+	margin-left: 70px;
+	margin-right: 70px;
+	opacity: 0.98;
+}
+#title {
+	color: #2f2e2e;
+	font-size: 35px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	border: solid;
+	font-weight: bold;
+	background: tan;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#left {
+    width: 550px;
+    float: left;
+	margin-bottom: 0px;
+	margin-left: 50px;
+}
+#right {
+	width: auto;
+    overflow: hidden;
+	background-color: #0d0d0d;
+	padding: 40px;
+	margin-right: 50px;
+}
+.title {
+	color: white;
+	font-size: 25px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	line-height: 100%;
+}
+.text {
+	color: white;
+	font-size: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.subtext {
+	color: white;
+	font-size: 15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	line-height: 200%;
+}
+#text {
+	color: white;
+	line-height: 0%;
+	font-size: 24px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#subtext {
+	color: white;
+	font-size: 15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	line-height: 200%
+}
+.caption {
+	color: silver;
+	font-size: 15px;
+}
+a {
+	color: tan;
+}
